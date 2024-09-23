@@ -2,7 +2,7 @@ name: Firebase Deployment
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2.3.2
       - name: Install Dependencies
-        run: npm install
+        run: npm install      
       - name: Build
         env:
-          CI: false
+          CI: false        
         run: npm run build
       - name: Archive Production Artifact
         uses: actions/upload-artifact@v3
@@ -29,17 +29,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2.3.2
       - name: Download Artifact
         uses: actions/download-artifact@v3
         with:
           name: build
           path: build
-      - name: Install Firebase Tools
+      - name: Install Firebase CLI
         run: npm install -g firebase-tools
       - name: Set Firebase Project
         run: |
-          firebase login:ci --token ${{ secrets.FIREBASE_TOKEN }}  # Log in with the token
-          firebase use --add staging  # or default
+          firebase use staging --token ${{ secrets.FIREBASE_TOKEN }}
       - name: Deploy to Firebase
-        run: firebase deploy --only hosting --token ${{ secrets.FIREBASE_TOKEN }} --project staging # or default
+        run: |
+          firebase deploy --only hosting --token ${{ secrets.FIREBASE_TOKEN }}
