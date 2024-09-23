@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import Styled from "./Login.module.css";
 import { FaUser, FaLock } from "react-icons/fa";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "./Firebase";
+import { db, auth } from "./Firebase";
 import { useNavigate } from "react-router-dom";
-import { db } from "./firebase";
 import { doc, setDoc } from "firebase/firestore";
 import Navigation from "./Navigation";
 

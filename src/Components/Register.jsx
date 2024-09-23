@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Styled from "./Login.module.css";
 import { FaUser, FaLock, FaEnvelope } from "react-icons/fa";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-import { auth } from "./Firebase";
+import { db, auth } from "./Firebase";
 import Navigation from "./Navigation";
 
 const Register = () => {

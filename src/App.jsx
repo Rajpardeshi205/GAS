@@ -6,7 +6,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import { onAuthStateChanged } from "firebase/auth";
-import { auth } from "./Components/firebase";
+import { auth } from "./Components/Firebase";
 import Login from "./Components/Login";
 import Register from "./Components/Register";
 import Booking from "./Components/Booking";

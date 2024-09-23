@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { auth, db } from "./firebase";
+import { db, auth } from "./Firebase";
 import Styled from "./Booking.module.css";
 import { FaUser } from "react-icons/fa";
 import { collection, addDoc, query, where, getDocs } from "firebase/firestore";
