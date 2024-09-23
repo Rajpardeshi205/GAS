@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "staging": "login-f8151",
+    "default": "login-f8151"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
