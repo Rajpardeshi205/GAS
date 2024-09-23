@@ -1,0 +1,52 @@
+{
+  "homepage": "http://Rajpardeshi205.github.io/GAS",
+  "type": "module",
+  "project_id": "login-f8151",
+  "private_key_id": "6b6b6e79155efd66c6e683f172eae33865f432a6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2JcUCWF/laQuj\n6fG/9plhq12cKbNhwuvNoOsWxS/Za3J2JXhVmF4I5BL6MEJwL/FoSN82hvuId49M\ngKlVcskfYA9q/vZJfdMnegncmV6jwPIrfczRTK/Utcw5yGQ7GiKP4qsEi2jlxbLb\n8tAvZNHJPbykvWnpjKMCkKnnqnED5eO1Zf4ptZbQXWn2pxJncVshTMqG8RZ4D760\n7yY6tHCsDyS41duVN1jx2xYr/RYWDHEry7OvzrYip7OhCq0PYUlVSt+/fBbRPj5/\nORx5SmwQ9Zc5/A07fP9ClCqZywG1u3AfwSq0+GPeEZH2PdzJ1CwlbDsKcUNcmvAD\n+X6QDpl/AgMBAAECggEAKSI+a1kpztT6G/oo7gDygmwAp9OC/wDV34oHjQza0W7C\nWov7sNjH45od7wIW/t7U1YgfYGD7TMYzRkOH+hQB92PqF2+cjtwrYy7cK0U3aiOY\njNnL9zgqPQ8RH7txZydvxq6ZkF0rQzhyO9mJyioqdhfLEij0UhnAdkPVGswS2Z4e\naIT46o4SB0C8nKCBhQUy1F3rXHlbLA6M7o1zHgnO0U+gtnIGAsUjg20aknJ5WDH+\nS86cj28Mok4+AZ4NDXTrVTa7bD16lzDtqOs6rheNYeJciedvi1XHpavfkJhgzkyw\nmIjBi5qzm1gfQ905/AWJsfAsNeudEet/5rWgKBytAQKBgQD33m2+Jy3MQn7o13hI\nUinUkbc9kc1QeBwAEV3Y21g1coQjrUUMLwE77rlcdJUEgl8xXqs440UH0U4E5KLA\nCTw3ze59jcuycQLsFiYcunvfMP9npG04o3ftkWQ7p7HkqyxcVzqAOwoAww+V02uE\nRPJqMXbXr6KHjR1dhmn2rnXZmQKBgQC8H2vo1vVyLTu0Xg5w3zIUXyOIEqvONXmK\nGvJqO7Y7TygquvtsPMgh2IAiVpe+XYNYv1evsX3ZMQ7z7XXJZmwK/PJf7brKaxpN\nz9+8m+WZcUNtpG8d4u3FG/RXETv15y1muE/4cj82uEeLSeexeYsIrGJ2WHVKGyxz\ndJvdtwfq1wKBgQC2dQMvgEOUIjatSz79bY3hLcpHBjauT1u9KQt+ACh0X3GpmXhE\nOa2c4mOMDT1MbnOIMfm0DIfZ81aM/4hV9/Zd1bcCsQgKuGnAQ6WWbCeW6ch4EG9d\ny+cR935i81Rd0Sr8ZjFoBw2b9fpY/aIdYWtYhETJDD6FrXi6SaFitpWFsQKBgFKr\nfEBWNoZ2WkZpDu+LJfbN2E9z5Qw5c6+9J8qHcw2dO4mLofFuxIQbIDP22bhOX+og\nK+iJl0RayrdnItveppwtjFWbovpRFr4bG7dGyx8jJv6HxEzd7J8yKa4ZZMArV0hM\nttf3XNAvK0GKuMbFItQs7RgUx3ZJer9B/zzvsgsBAoGAEKRvOAvt4zueKuO8M9Mk\nvdKJGllgBHrEkBuroqCcz+oM9gzmijO07OKgfFwdbtGtQfjheVB0NyuHwpxnybPK\nx1vvhhDJin3+EySXurP2wWbPhCl/KnUfW6+2zJh/b55lO9ZMkgNxv6VxtAU2cYOc\n2ZymyLzsAjxEkmTkvqPZx34=\n-----END PRIVATE KEY-----\n",
+  "client_email": "login-f8151@appspot.gserviceaccount.com",
+  "client_id": "116301327157094244800",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/login-f8151%40appspot.gserviceaccount.com",
+  "universe_domain": "googleapis.com",
+  "name": "gas",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.3",
+    "emailjs-com": "^3.2.0",
+    "express": "^4.21.0",
+    "firebase": "^10.13.2",
+    "firebase-admin": "^12.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.26.2",
+    "vite-tsconfig-paths": "^5.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "vite": "^5.4.1"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,154 @@
+.admin_booking {
+  background-image: url("./Images/booking_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+
+.dashboard {
+  height: auto;
+  background-color: #e0f7fa;
+  font-family: "Arial", sans-serif;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  margin: auto;
+}
+
+.nav {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.nav li {
+  margin: 0 15px;
+}
+
+.nav a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #ff0054;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav li:first-child:hover {
+  border: 3px solid black;
+  border-radius: 45px;
+}
+
+.nav li:last-child:hover {
+  border: none;
+  box-shadow: none;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #ff5722;
+  color: white;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+h2 {
+  color: #004d40;
+  margin-top: 20px;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+  background-color: white;
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+li:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+p {
+  margin: 5px 0;
+}
+
+.ad {
+  background-color: transparent;
+  margin-left: 30px;
+  list-style: none;
+  padding-bottom: 20px;
+  border-bottom: 5px solid black;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav li {
+    margin: 10px 0;
+  }
+
+  li {
+    padding: 15px;
+  }
+
+  button {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard {
+    padding: 10px;
+  }
+
+  .nav a {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  li {
+    padding: 10px;
+  }
+}

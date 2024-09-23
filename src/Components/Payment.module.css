@@ -1,0 +1,14 @@
+.payment {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.payment h2 {
+  margin-bottom: 20px;
+}
